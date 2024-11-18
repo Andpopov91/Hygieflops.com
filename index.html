@@ -5,14 +5,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Details</title>
     <style>
+        @font-face {
+            font-family: 'Amasis MT Std Light';
+            src: url('path/to/AmasisMTStd-Light.ttf'); /* Replace with the actual path to your font file */
+        }
         body {
-            font-family: Arial, sans-serif;
+            font-family: 'Amasis MT Std Light', Arial, sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
             margin: 0;
-            background-color: #f4f4f4;
+            background-color: #e2e8e8;
         }
         .contact {
             text-align: center;
@@ -20,6 +24,11 @@
             padding: 20px;
             border: 1px solid #ddd;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .contact img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 20px;
         }
         h1 {
             font-size: 24px;
@@ -38,8 +47,9 @@
 </head>
 <body>
     <div class="contact">
+        <img src="/assets/HYGIE-FLOPS LTD_Final_14112024.png" alt="Hygie-Flops Logo">
         <h1>Hygie-flops Ltd.</h1>
-        <p class="note">Please send all your inquries to following email address:</p>
+        <p class="note">Please send all your inquries to the following email address:</p>
         <p><strong>Email:</strong> info@hygieflops.com</p>
         <p class="note">The website is under development</p>
     </div>
